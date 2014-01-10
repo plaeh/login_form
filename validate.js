@@ -14,7 +14,7 @@ function validatePassword() {
   }
 }
 
-$('.submit').click(function () {
+function validate() {
   validateUser();
   validatePassword();
 });
