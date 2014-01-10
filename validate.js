@@ -8,9 +8,9 @@ function validateUser() {
 
 function validatePassword() {
   if ($('.passwordField').val().match(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#$%^&*()]).{6,}$/)) {
-    console.log("Password Doesn't Works");
-  } else {
     console.log("Password Works: " + $('.passwordField').val());
+  } else {
+    console.log("Password Doesn't Work");
   }
 }
 
