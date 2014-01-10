@@ -17,4 +17,4 @@ function validatePassword() {
 function validate() {
   validateUser();
   validatePassword();
-});
+}
