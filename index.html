@@ -6,16 +6,21 @@
   <script type="text/javascript" src="/validate.js"></script>
 </head>
 <body>
-  <header>
-    <h3>Login Form - ish</h3>
-    </br>
-    <p>username: not blank
-    password: > 6 chars, contains at least one of each: capital letter, number, special character !@#$%^&*()</p>
-  </header>
+  <div class="container">
+    <header>
+      <h3>Login Form - ish</h3>
+      </br>
+      <p>username: not blank</p>
+      <p>password: > 6 chars, contains at least one of each: capital letter, number, special character !@#$%^&*()</p>
+    </header>
 
-
-  <input class="usernameField" placeholder="username"></input>
-  <input class="passwordField" placeholder="password"></input>
-  <button class="submit" onclick="validate()">submit</button>
+    <div class="row-fluid">
+      <div class="col-md-12">
+        <input class="usernameField" placeholder="username"></input>
+        <input class="passwordField" placeholder="password"></input>
+        <button class="submit" onclick="validate()">submit!</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
