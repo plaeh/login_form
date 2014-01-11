@@ -17,34 +17,31 @@ body {
     transparent 75%,
     transparent);
 }
-
 .input-fields {
+  display: block;
+  width: 100%;
+  vertical-align: middle;
   background-color: transparent;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   border-radius: 5%;
-  @include transition(all 3s ease-out);
-
-  > .username-field {
+  .username-field {
     border: 5px solid #8DCF8D;
   }
-  > .password-field {
+  .password-field {
     border: 5px solid #7634CC;
   }
 }
-
 .success {
   border: 5px solid #8DCF8D;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-
 .error {
   border-color: #b94a48;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-
 .submit {
   max-width: 100%;
   padding: 10px 20px;
