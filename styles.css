@@ -2,11 +2,7 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  background-color: #220799;
   margin: auto 0;
-}
-
-.container {
   background-size: 100%;
   background-image: linear-gradient(
     45deg,
@@ -21,11 +17,11 @@ body {
 }
 
 .success {
-  border: 1px solid #8DCF8D;
+  border: 5px solid #8DCF8D;
 }
 
 .error {
-  border: 1px solid #F052FF;
+  border: 5px solid #F052FF;
 }
 
 .submit {
