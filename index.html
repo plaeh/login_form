@@ -3,7 +3,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/validate.js"></script>
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/styles.css"/>
 </head>
 <body>
@@ -12,11 +15,16 @@
     </br>
 
     <div class="row-fluid">
-      <div class="col-md-12">
-        <input class="username-field" type="email" placeholder="Username"></input>
-        <input class="password-field" type="password" placeholder="Password"></input>
-        <button class="submit" type="submit" onclick="validate()">Submit!</button>
-      </div>
+      <div class="col-lg-12">
+        <div class="col-lg-5">
+          <input class="username-field" type="email" placeholder="Username"></input>
+        </div>
+        <div class="col-lg-5">
+          <input class="password-field" type="password" placeholder="Password"></input>
+        </div>
+        <div class="col-lg-2">
+          <button class="submit" type="submit" onclick="validate()">Submit!</button>
+        </div>
     </div>
   </div>
 </body>
