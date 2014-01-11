@@ -18,19 +18,18 @@ body {
     transparent);
 }
 .input-fields {
-  display: block;
   width: 100%;
   vertical-align: middle;
   background-color: transparent;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   border-radius: 5%;
-  .username-field {
-    border: 5px solid #8DCF8D;
-  }
-  .password-field {
-    border: 5px solid #7634CC;
-  }
+}
+.username-field {
+  border: 5px solid #8DCF8D;
+}
+.password-field {
+  border: 5px solid #7634CC;
 }
 .success {
   border: 5px solid #8DCF8D;
