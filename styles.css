@@ -22,27 +22,25 @@ body {
 }
 
 .success {
-  border: dotted 1%;
-  border-color: green;
+  border: 1px solid #8DCF8D;
 }
 
 .error {
-  border: dotted 1%;
-  border-color: red;
+  border: 1px solid #F052FF;
 }
 
 .submit {
   max-width: 100%;
   padding: 10px 20px;
   margin: 10px 0;
-  background: #1A7038;
+  background: #14542A;
   border: 1px solid #7634CC;
   color: #F052FF;
   font-size: 11px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  border-radius: 10%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  border-radius: 5%;
 }
