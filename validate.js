@@ -1,19 +1,22 @@
+var user = $('.username-field'),
+    pass = $('.password-field');
+
 function validateUser() {
-  if (!$('.usernameField').val()) {
-    $('.usernameField').addClass('success');
+  if (!user.val()) {
+    user.addClass('success');
     console.log("Username Doesn't Work");
   } else {
-    $('.usernameField').addClass('error');
-    console.log("Username Works: " + $('.usernameField').val());
+    user.addClass('error');
+    console.log("Username Works: " + user.val());
   }
 }
 
 function validatePassword() {
-  if ($('.passwordField').val().match(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#$%^&*()]).{6,}$/)) {
-    $('.passwordField').addClass('success');
-    console.log("Password Works: " + $('.passwordField').val());
+  if (pass.val().match(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#$%^&*()]).{6,}$/)) {
+    pass.addClass('.success');
+    console.log("Password Works: " + pass.val());
   } else {
-    $('.passwordField').addClass('error');
+    pass.addClass('error');
     console.log("Password Doesn't Work");
   }
 }
